@@ -23,6 +23,7 @@ Now consider 20.  The square root of 20 is ~4.47
 As the remainder is less than zero we know the square root is not as great as 5 so it lies between 4 and 5.
 
 Programming this is Python has been part of my courses for years as it is a nice use of loops and is generally done like this:
+```python
 # Estimating Square roots with While Loop
 
 testValue = 25 #
@@ -39,5 +40,6 @@ if testValue == 0: #
     print('The square root of',initialValue, 'is exactly', rootCounter)
 else:
     print('The square root of', initialValue,'is between', rootCounter, 'and', rootCounter+1)
-    
+```
+
 Now that I'm teaching myself ARM assembly this seemed like a good project to tackle.
