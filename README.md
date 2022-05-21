@@ -5,20 +5,20 @@ It is possible to estimate the square root of a value by subtracting sequential 
 
 For example, start with 16.
 
-16 - 1 = 15   1 subtraction
-15 - 3 = 12   2 subtractions
-12 - 5 = 7    3 subtractions
-7 - 7 = 0     4 subtractions
+16 - 1 = 15  ->  1 subtraction<br>
+15 - 3 = 12  ->  2 subtractions<br>
+12 - 5 = 7   ->  3 subtractions<br>
+7 - 7 = 0    ->  4 subtractions<br>
 
 As the remainder is zero we know that the square root of 16 is 4
 
 Now consider 20.  The square root of 20 is ~4.47
 
-20 - 1 = 19   1 subtraction
-19 - 3 = 16   2 subtractions
-16 - 5 = 11   3 subtractions
-11 - 7 = 4    4 subtractions
-4 - 9 = -5    5 subtractions
+20 - 1 = 19  ->  1 subtraction<br>
+19 - 3 = 16  ->  2 subtractions<br>
+16 - 5 = 11  ->  3 subtractions<br>
+11 - 7 = 4   ->  4 subtractions<br>
+4 - 9 = -5   ->  5 subtractions<br>
 
 As the remainder is less than zero we know the square root is not as great as 5 so it lies between 4 and 5.
 
