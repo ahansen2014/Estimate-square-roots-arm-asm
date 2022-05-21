@@ -26,20 +26,21 @@ Programming this is Python has been part of my courses for years as it is a nice
 ```python
 # Estimating Square roots with While Loop
 
-testValue = 25 #
+testValue = 25 
 initialValue = testValue
-rootCounter = 0 #
-subtractionValue = 1#
+rootCounter = 0 
+subtractionValue = 1
 
-while testValue >= subtractionValue: #
+while testValue >= subtractionValue: 
     testValue -= subtractionValue
     rootCounter += 1
     subtractionValue += 2
 
-if testValue == 0: #
+if testValue == 0: 
     print('The square root of',initialValue, 'is exactly', rootCounter)
 else:
     print('The square root of', initialValue,'is between', rootCounter, 'and', rootCounter+1)
 ```
 
-Now that I'm teaching myself ARM assembly this seemed like a good project to tackle.
+Now that I'm teaching myself ARM assembly this seemed like a good project to tackle. And why not take a project that can be written in 14 lines and replace it with one that takes nearly 130!
+
